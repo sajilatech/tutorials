@@ -1,0 +1,32 @@
+https://www.python.org/downloads/
+py --version
+
+pip install command
+
+	python -m ensurepip --upgrade
+check pip 
+	pip --version
+
+INSTALL DJANGO
+	pip install django
+
+CREATE PROJECT
+django-admin startproject myproject
+
+MOVE TO THE PROJECT
+	cd myproject
+
+START WEB SERVER
+ python manage.py runserver
+
+INSIDE THE PROJECT FOLDER CREATE APP
+python manage.py startapp login
+
+Django default migrations
+	python manage.py migrate
+
+
+	
+
+
+
