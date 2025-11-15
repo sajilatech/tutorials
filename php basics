@@ -1,0 +1,66 @@
+1.	What is PHP?
+•	PHP: Hypertext Preprocessor	
+•	PHP scripts are executed on the server
+•	PHP files can contain text, HTML, CSS, JavaScript, and PHP code
+•	PHP files have extension ".php
+2.	WHAT PHP DO
+Generate Dynamic content
+Can create, Delete, read, write, open and close
+Encrypt data
+Collect form data
+Send data to cookes
+3.	Benfits
+•	Php run on platforms Windows, Mos , linux unix 
+•	Compatable with almost all servers
+
+SET UP PHP
+Install web server
+Install PHP
+Install Database such as Mysql
+
+LAMP
+Linux, Apache, MySQL, PHP	Linux
+WAMP
+Windows, Apache, MySQL, PHP	Windows
+MAMP
+Macintosh, Apache, MySQL, PHP	macOS
+XAMPP
+Cross-Platform, Apache, MariaDB, PHP, Perl	Windows, macOS, and Linux
+
+
+BASIC PHP SYNTAX
+Php script start with <?php end with ?>
+
+Default php file extension is .php
+Comments the line(ignore the code)
+Single line command //hi I am here
+Double line command /* ---this commented line on code ----*/
+
+VARIABLES
+•	A variable starts with the $ sign, followed by the name of the variable
+•	A variable name must start with a letter or the underscore character
+•	A variable name cannot start with a number
+•	A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
+•	Variable names are case-sensitive ($age and $AGE are two different variables)
+
+
+
+OUTPUT VARIABLE
+he PHP echo statement is often used to output data to the screen.
+
+DATA TYPES
+•	String
+•	Integer
+•	Float (floating point numbers - also called double)
+•	Boolean
+•	Array
+•	Object
+•	NULL
+•	Resource
+
+
+Control Structures:
+Functions
+Arrays
+
+Database interaction
