@@ -1,0 +1,19 @@
+CREATE PROJECT
+laravel new example-app
+
+php artisan make:controller LoginController
+
+php artisan --version
+
+Make table
+	 php artisan make:migration create_students_table
+php artisan migrate
+
+php artisan migrate:rollback
+
+SETTING APP SERVICE
+app/Providers/AppServiceProvider.php
+	 Schema::defaultStringLength(191); INSIDE BOOT
+use Illuminate\Support\Facades\Schema;
+
+
