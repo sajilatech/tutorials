@@ -1,3 +1,8 @@
+CHECK PHP VERSION
+	php -v
+CHECK COMPOSER
+composer 
+
 CREATE PROJECT
 laravel new example-app
 
