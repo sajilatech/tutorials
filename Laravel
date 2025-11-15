@@ -5,6 +5,27 @@ composer
 
 CREATE PROJECT
 laravel new example-app
+composer create-project laravel/laravel example-app            //on laravel 11
+composer require laravel/ui                                  //Laravel UI packag includes bootstrap, vue.js, react
+
+php artisan ui bootstrap --auth                             // bootstrap +Auth
+npm install && npm run dev
+
+php artisan ui vue --auth								//Vue + Auth
+
+php artisan ui react --auth								//React + Auth
+
+php artisan ui bootstrap --auth									// not supported on laravel 9, 10, 11
+npm install
+npm run dev
+
+
+composer require laravel/breeze --dev								// for laravel 11
+php artisan breeze:install
+npm install && npm run dev
+
+
+
 
 php artisan make:controller LoginController
 
