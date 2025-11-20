@@ -30,6 +30,8 @@ php artisan make:controller LoginController
 php artisan --version
 
 Make table
+
+
 	 php artisan make:migration create_students_table
 php artisan migrate
 
@@ -45,3 +47,6 @@ php artisan db:seed --class=AdminSeeder
 
 use App\Http\Controllers\LoginController;
 Route::get('/login', [LoginController::class, 'index'])->name('login');
+
+ $request->input('name'),
+   Employeeuser::create($input_fields);
