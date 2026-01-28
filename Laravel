@@ -6,6 +6,10 @@ composer
 CREATE PROJECT
 laravel new example-app
 composer create-project laravel/laravel example-app            //on laravel 11
+
+OR DOWNLOAD MANUALLY FROM THIS LINK
+https://chatgpt.com/c/69799f47-de74-8321-b69f-306c671e1a4e
+
 composer require laravel/ui                                  //Laravel UI packag includes bootstrap, vue.js, react
 
 php artisan ui bootstrap --auth                             // bootstrap +Auth
